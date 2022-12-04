@@ -24,7 +24,7 @@ def calculateMatrix(matrix):
     
     corner_sum = (matrix[0][0] + matrix[0][m - 1] + matrix[n - 1][0] + matrix[m - 1][n - 1])
     
-    print(corner_sum)
+    print("Sum of the corners: " + str(corner_sum))
     
 def calculateAverageValue(matrix):
     n = len(matrix)
@@ -33,7 +33,7 @@ def calculateAverageValue(matrix):
             sum = matrix[row][col] / n * n
             
             
-    print(sum)
+    print("Average sum of the numbers: " + str(sum))
             
 
 n = int(input("Enter the dimension n of your square matrix. (e.g. 3): "))
